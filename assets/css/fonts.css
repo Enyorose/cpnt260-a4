@@ -1,12 +1,14 @@
 h1, h2 {
   font-family: 'Titillium Web', sans-serif;
+  font-size: clamp(1rem, 2.5vw, 2rem); 
 }
 p, span, a, figcaption {
-  font-family: 'Montserrat', sans-serif; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(1rem, 1.2vw, 1.2rem);  
 }
 
 /****Custom Variables****/
 :root {
   --main-orange-color: #c3890c;
-  --card-color-grey: hls(140, 3%, 55%)
+  --card-color-grey: #A3A8A45E;
 }
