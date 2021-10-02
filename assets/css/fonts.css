@@ -1,0 +1,12 @@
+h1, h2 {
+  font-family: 'Titillium Web', sans-serif;
+}
+p, span, a, figcaption {
+  font-family: 'Montserrat', sans-serif; 
+}
+
+/****Custom Variables****/
+:root {
+  --main-orange-color: #c3890c;
+  --card-color-grey: hls(140, 3%, 55%)
+}
