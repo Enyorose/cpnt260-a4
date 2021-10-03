@@ -2,6 +2,10 @@
 -Jessica Watson
 -Get ready for the greatest hero landing page!
 
+## GitHub Links
+- Git repo [link](https://github.com/Enyorose/cpnt260-a4)
+- Deployed Page [link](https://enyorose.github.io/cpnt260-a4/)
+
 ## Some Things I had troubles with
 - Some things I had problems with was the hamburger nav, I really need to learn how to make it for mobile first as that seems to be my biggest problem. But I git it to work using the checkbox hack thanks to this video by [KevinPowell](https://www.youtube.com/watch?v=8QKOaTYvYUA) it wasn't exactly his work but it was enough to get it working.
 - the other thing I can't seem to fix is the background picture, I can't seem to size it for mobile or make it responsive, I probably should have just went with another photo but it looks fine.
