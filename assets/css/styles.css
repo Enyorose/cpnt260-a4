@@ -105,3 +105,15 @@ iframe {
 h2 {
   text-align: center;
 }
+footer {
+background-color: var(--card-color-grey);
+height: 5vh;
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding-left: 1rem;
+}
+footer i {
+  font-size: 26px;
+  padding-right: 1rem;
+}
