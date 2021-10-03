@@ -14,21 +14,25 @@
       <img src="assets/icons/quote-photo.png" alt="Photo of getting a quote on a tablet">
       <h1>Lets Get Your Quote!</h1>
     </section>
-    <form action="#">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="fname">
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lname">
-      <label for="email">Email</label>
-      <input type="text" id="email" name="email">
-      <label for="services">Service You're Interested in:</label>
-      <select name="services" id="services" size="3">
-        <option value="refineries">Refineries</option>
-        <option value="mining">Mining</option>
-        <option value="plant-expansion">Plant Expansion</option>
-        <option value="truckload">Truckload</option>
-      </select>
-    </form>
+      <form action="https://formspree.io/f/mayakjzv"
+      method="POST">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="_replyto">
+        <label for="services">Service You're Interested in:</label>
+        <select name="services" id="services" size="3">
+          <option value="refineries">Refineries</option>
+          <option value="mining">Mining</option>
+          <option value="plant-expansion">Plant Expansion</option>
+          <option value="truckload">Truckload</option>
+        </select>
+        <label>Addition Information:</label>
+        <textarea name="add-info" id="add-info" cols="30" rows="5"></textarea>
+        <button type="submit">Submit</button>
+      </form>
   </main>
 </body>
 </html>
