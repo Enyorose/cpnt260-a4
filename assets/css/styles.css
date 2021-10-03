@@ -147,9 +147,4 @@ footer i {
     display: block;
     padding: 0.5em;
   }
-  .hero-section {
-    background-image: url("../images/md/asphalt-hero.png");
-    height: 70vh;
-    width: 100vw;
-  }
 }
